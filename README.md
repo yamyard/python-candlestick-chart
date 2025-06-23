@@ -18,14 +18,14 @@
     pip install yfinance pyecharts pandas
 ```
 ## 使用说明
-1. 修改配置文件 `config.json`
+1. 修改配置文件 `config.json`，示例如下
 ```
     {
       "symbol": "000001.SS",
-      "start_date": "2020-01-01",
-      "end_date": "2022-12-31",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
       "output_file": "shanghai_index_kline.html",
-      "title": "上证指数 K线图",
+      "title": "SSE Candlestick Chart",
       "adjust": false
     }
 ```
