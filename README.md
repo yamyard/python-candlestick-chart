@@ -1,7 +1,6 @@
 # Python Candlestick Chart Generator
-
 ## 项目介绍
-这是一个基于 Python 的股票K线图生成工具，使用 `yfinance` 获取股票历史数据，利用 `pyecharts` 绘制交互式K线图（HTML格式）。
+这是一个基于 Python 的股票K线图生成工具，使用 `yfinance` 获取股票历史数据，利用 `pyecharts` 绘制交互式K线图（HTML格式）
 ## 目录结构
 ```
     python-candlestick-chart/
