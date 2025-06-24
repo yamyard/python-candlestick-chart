@@ -6,8 +6,8 @@ This is a Python-based tool for generating candlestick (K-line) charts for stock
     pip install -r requirements.txt
 ```
 ## Usage Instructons
-1. Edit Configuration File (supports JSON and YAML)
-  Here is an example using `config.json` :
+1. Edit Configuration File (supports JSON and YAML)  
+Here is an example using `config.json` :
 ```
     {
       "symbol": "^IXIC",
@@ -22,5 +22,5 @@ This is a Python-based tool for generating candlestick (K-line) charts for stock
 ```
     python main.py
 ```
-3. View Result
-  Open the HTML file specified in `output_file` with a browser to see the interactive candlestick chart.
+3. View Result  
+Open the HTML file specified in `output_file` with a browser to see the interactive candlestick chart.
