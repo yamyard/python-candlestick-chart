@@ -21,5 +21,5 @@ This is a Python-based tool for generating candlestick (K-line) charts for stock
 ```
     python main.py
 ```
-3. View Result
+3. View Result  
 Open the HTML file specified in `output_file` with a browser to see the interactive candlestick chart.
