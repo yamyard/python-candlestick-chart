@@ -6,7 +6,7 @@
     pip install -r requirements.txt
 ```
 ## 使用说明
-1. 修改配置文件 `config.json`，示例如下
+1. 修改配置文件，支持json与yaml，以 `config.json` 为例如下
 ```
     {
       "symbol": "000001.SS",
@@ -14,7 +14,7 @@
       "end_date": "2024-12-31",
       "output_file": "shanghai_index_candlestick_chart.html",
       "title": "SSE Candlestick Chart",
-      "adjust": false
+      "adjust": False
     }
 ```
 2. 运行程序
