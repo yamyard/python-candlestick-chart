@@ -1,22 +1,22 @@
 # Project Structure
 This document describes the directory and file organization of the project.
 ```
-python-candlestick-chart/
-├── main.py
-├── docs/
-│ └── project_structure.md
-├── src/
-│ ├── fetcher/
-│ │ ├── init.py
-│ │ └── core.py
-| ├── plotter/
-│ │ ├── init.py
-│ │ └── core.py
-│ ├── runner.py
-├── test/
-├── config.json
-├── requirements.txt
-└── README.md
+📦 python-candlestick-chart/
+├── 🏃 main.py
+├── 📚 docs/
+│   └── 📄 project_structure.md
+├── 📂 src/
+│   ├── 📦 fetcher/
+│   │   ├── 📄 __init__.py
+│   │   └── 📄 core.py
+│   ├── 📦 plotter/
+│   │   ├── 📄 __init__.py
+│   │   └── 📄 core.py
+│   └── 🧩 runner.py
+├── 🧪 test/
+├── ⚙️ config.json
+├── 📦 requirements.txt
+└── 📄 README.md
 ```
 ## Description
 ```
