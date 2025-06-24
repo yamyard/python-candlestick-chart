@@ -3,6 +3,6 @@
       "start_date": "2024-01-01",
       "end_date": "2024-12-31",
       "output_file": "nasdaq_candlestick_chart.html",
-      "title": "IXIC Candlestick Chart",
+      "title": "NASDAQ Composite Index",
       "adjust": false
     }

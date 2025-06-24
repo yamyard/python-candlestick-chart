@@ -1,12 +1,12 @@
 # Python Candlestick Chart Generator
-## 项目介绍
-这是一个基于 Python 的股票K线图生成工具，使用 `yfinance` 获取股票历史数据，利用 `pyecharts` 绘制交互式K线图（HTML格式）
-## 安装依赖
+## Project Overview
+This is a Python-based tool for generating candlestick (K-line) charts for stock data. It uses `yfinance` to fetch historical stock data and `pyecharts` to render interactive candlestick charts in HTML format.
+## Install Dependencies
 ```
     pip install -r requirements.txt
 ```
-## 使用说明
-1. 修改配置文件，支持json与yaml，以 `config.json` 为例如下
+## Usage Instructons
+1. Edit the configuration file (supports JSON and YAML). Here is an example using `config.json` :
 ```
     {
       "symbol": "^IXIC",
@@ -17,9 +17,9 @@
       "adjust": false
     }
 ```
-2. 运行程序
+2.  Run Program
 ```
     python main.py
 ```
-3. 查看结果
-用浏览器打开配置中 `output_file` 指定的 HTML 文件，查看交互式K线图
+3. View Result
+Open the HTML file specified in `output_file` with a browser to see the interactive candlestick chart.
