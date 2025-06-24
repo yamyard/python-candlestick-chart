@@ -6,7 +6,8 @@
     pip install -r requirements.txt
 ```
 ## 使用说明
-1. 修改配置文件，支持json与yaml，以 `config.json` 为例如下
+1. 修改配置文件  
+支持json与yaml，以 `config.json` 为例如下
 ```
     {
       "symbol": "^IXIC",
@@ -21,5 +22,5 @@
 ```
     python main.py
 ```
-3. 查看结果
+3. 查看结果  
 用浏览器打开配置中 `output_file` 指定的 HTML 文件，查看交互式K线图
