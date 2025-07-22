@@ -24,3 +24,7 @@ Here is an example using `config.json` :
 ```
 3. View Result  
 Open the HTML file specified in `output_file` with a browser to see the interactive candlestick chart.
+
+## Disclaimer
+
+This software is for educational and research purposes only. It is not financial advice. Use at your own risk.
